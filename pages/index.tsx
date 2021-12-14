@@ -10,7 +10,7 @@ export default function Home() {
         <title>Create Next App</title>
       </Head>
 
-      <main className="py-[5rem] flex flex-grow justify-center align-center">
+      <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
