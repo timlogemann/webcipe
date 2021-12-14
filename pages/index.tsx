@@ -5,7 +5,7 @@ import Button from '../components/Button';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="min-h-full px-[0.5rem] flex flex-column justify-center align-center items-center bg-red-100">
       <Head>
         <title>Create Next App</title>
       </Head>
